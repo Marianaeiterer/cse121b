@@ -40,9 +40,7 @@ document.getElementById("name").innerHTML = myProfile.name;
 
 /* Photo with attributes */
 document.getElementById("photo").setAttribute("src", myProfile.photo);
-document
-  .getElementById("photo")
-  .setAttribute("alt", `Profile image of ${myProfile.name}`);
+document.getElementById("photo").setAttribute("alt", myProfile.name);
 
 /* Favorite Foods List*/
 
