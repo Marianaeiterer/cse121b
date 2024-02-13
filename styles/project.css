@@ -1,0 +1,74 @@
+@import url("https://fonts.cdnfonts.com/css/harry-potter");
+
+body {
+  background-image: url("https://i.postimg.cc/ZqmcPy10/harry-potter-desk-wallpaper-by-bamberos-compressed.jpg");
+
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(13, 13, 13);
+  padding: 1rem;
+}
+#gridly h2 {
+  font-family: "Harry Potter", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(255, 244, 244);
+  letter-spacing: 0.5rem;
+  width: fit-content;
+  padding: 1rem;
+  margin: auto;
+  background-color: #29191ae6;
+  box-shadow: 0 0 30px rgba(241, 198, 7, 0.9);
+}
+
+#filtered {
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  padding: 1em;
+  margin: 2em;
+  color: #ffffff;
+  background-color: rgba(156, 18, 3, 0.9);
+  box-shadow: 0 0 30px rgba(156, 18, 3, 0.9);
+}
+
+#wizards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#wizards article {
+  height: 500px;
+  margin: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#wizards h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#wizards p {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2em;
+}
+
+#wizards img {
+  width: 250px;
+  height: auto;
+  box-shadow: 0 0 30px #777;
+  margin: 0.5rem;
+}
